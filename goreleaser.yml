@@ -1,0 +1,9 @@
+build:
+  main: ./cmd/example/main.go
+  goarch:
+    - amd64
+brew:
+  github:
+    owner: mattbangert
+    name: homebrew-tap
+  folder: Formula
